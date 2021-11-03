@@ -3,5 +3,5 @@ policy "restrict-aws-tag" {
 }
 
 policy "restrict-price-increase" {
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
