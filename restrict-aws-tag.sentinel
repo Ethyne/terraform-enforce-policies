@@ -21,7 +21,7 @@ mandatory_instance_tags = rule {
     }
 }
 
-# Check the above rule(s) to be true
+# Check mandatory tags exist
 main = rule {
     mandatory_instance_tags
 }
