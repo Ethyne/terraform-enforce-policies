@@ -6,7 +6,7 @@ import "decimal"
 delta_monthly_cost = decimal.new(tfrun.cost_estimate.delta_monthly_cost)
 max_delta = 30
 
-# Rule checking for less than maximum delta
+# Rule checking for less than maximum price delta
 main = rule {
     delta_monthly_cost.less_than(max_delta)
 }
